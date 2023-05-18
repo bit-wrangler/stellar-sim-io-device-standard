@@ -72,7 +72,9 @@
 
 (4.A.2) Example of a framed message: |SB|DD|DD|DD|DD|DD|DD|ES|SB|DD|DD|DD|DD|DD|DD|CS|EB|
 
-(4.A.3) In the above example, SB is the start byte used for framing, EB is the end byte used for framing, ES is the escape byte used for escaping framing bytes, and DD is an arbitrary data byte.
+(4.A.3) In the above example, SB is the start byte used for framing, EB is the end byte used for framing, ES is the escape byte used for escaping framing bytes, CS is a checksum byte, and DD is an arbitrary data byte.
+
+(4.A.4) The checksum is calculated by initializing the checksum with 0xFF byte and XOR'ing the checksum with all the message data bytes. `checksum = 0xFF; for (auto data_byte in message_data) {checksum ^= data_byte;}`
 
 ### (4.B) Hub Serial Message Types
 
