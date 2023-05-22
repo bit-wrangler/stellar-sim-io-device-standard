@@ -7,15 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="963.07104"
-   height="388.33014"
+   width="1280"
+   height="522.3205"
    overflow="hidden"
    version="1.1"
-   id="svg123"
+   id="svg187"
    sodipodi:docname="system-architecture.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
-     id="metadata127">
+     id="metadata191">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -35,24 +35,23 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1795"
-     inkscape:window-height="1001"
-     id="namedview125"
+     inkscape:window-width="1719"
+     inkscape:window-height="961"
+     id="namedview189"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="3.25625"
-     inkscape:cx="785.26764"
-     inkscape:cy="204.32982"
+     inkscape:zoom="0.57562911"
+     inkscape:cx="612.89458"
+     inkscape:cy="227.23065"
      inkscape:window-x="0"
      inkscape:window-y="271"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg123"
-     inkscape:document-rotation="0" />
+     inkscape:current-layer="svg187" />
   <defs
-     id="defs23">
+     id="defs41">
     <clipPath
        id="clip0">
       <rect
@@ -65,8 +64,8 @@
     <clipPath
        id="clip1">
       <rect
-         x="944"
-         y="145"
+         x="426"
+         y="239"
          width="96"
          height="96"
          id="rect5" />
@@ -74,8 +73,8 @@
     <clipPath
        id="clip2">
       <rect
-         x="944"
-         y="145"
+         x="426"
+         y="239"
          width="96"
          height="96"
          id="rect8" />
@@ -83,8 +82,8 @@
     <clipPath
        id="clip3">
       <rect
-         x="944"
-         y="145"
+         x="426"
+         y="239"
          width="96"
          height="96"
          id="rect11" />
@@ -92,8 +91,8 @@
     <clipPath
        id="clip4">
       <rect
-         x="627"
-         y="145"
+         x="758"
+         y="237"
          width="96"
          height="96"
          id="rect14" />
@@ -101,8 +100,8 @@
     <clipPath
        id="clip5">
       <rect
-         x="627"
-         y="145"
+         x="758"
+         y="237"
          width="96"
          height="96"
          id="rect17" />
@@ -110,158 +109,161 @@
     <clipPath
        id="clip6">
       <rect
-         x="627"
-         y="145"
+         x="758"
+         y="237"
          width="96"
          height="96"
          id="rect20" />
+    </clipPath>
+    <clipPath
+       id="clip7">
+      <rect
+         x="1107"
+         y="346"
+         width="96"
+         height="96"
+         id="rect23" />
+    </clipPath>
+    <clipPath
+       id="clip8">
+      <rect
+         x="1107"
+         y="346"
+         width="96"
+         height="96"
+         id="rect26" />
+    </clipPath>
+    <clipPath
+       id="clip9">
+      <rect
+         x="1107"
+         y="346"
+         width="96"
+         height="96"
+         id="rect29" />
+    </clipPath>
+    <clipPath
+       id="clip10">
+      <rect
+         x="1107"
+         y="126"
+         width="96"
+         height="96"
+         id="rect32" />
+    </clipPath>
+    <clipPath
+       id="clip11">
+      <rect
+         x="1107"
+         y="126"
+         width="96"
+         height="96"
+         id="rect35" />
+    </clipPath>
+    <clipPath
+       id="clip12">
+      <rect
+         x="1107"
+         y="126"
+         width="96"
+         height="96"
+         id="rect38" />
     </clipPath>
   </defs>
   <rect
      x="0"
      y="0"
-     width="963.07104"
-     height="388.33014"
+     width="1280"
+     height="522.3205"
      fill="#ffffff"
-     id="rect25"
-     style="fill:#fffefe;fill-opacity:1;stroke-width:0.637028" />
+     id="rect43"
+     style="stroke-width:0.851731" />
+  <rect
+     x="731.5"
+     y="184.69675"
+     width="151"
+     height="114"
+     stroke="#000000"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="none"
+     id="rect45" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text47"
+     x="762.06403"
+     y="325.19675">Interface</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text49"
+     x="770.56403"
+     y="354.19675">Service</text>
   <g
      clip-path="url(#clip1)"
-     id="g35"
-     transform="translate(-159.6929,-73.704414)">
+     id="g65"
+     transform="translate(0,-44.803253)">
     <g
        clip-path="url(#clip2)"
-       id="g33">
+       id="g63">
       <g
          clip-path="url(#clip3)"
-         id="g31">
+         id="g61">
         <path
-           d="m 1000,203 h -48 v -32 h 48 z m 2,-38 h -52 c -2.2,0 -4,1.8 -4,4 v 36 c 0,2.2 1.8,4 4,4 h 20 v 6 h -9 v 6 h 30 v -6 h -9 v -6 h 20 c 2.2,0 4,-1.8 4,-4 v -36 c 0,-2.2 -1.8,-4 -4,-4 z"
-           id="path27" />
-        <path
-           d="m 1034,175 h -20 v -6 h 20 z m 0,10 h -20 v -6 h 20 z m -10,30 c -1.7,0 -3,-1.3 -3,-3 0,-1.7 1.3,-3 3,-3 1.7,0 3,1.3 3,3 0,1.7 -1.3,3 -3,3 z m 10,-50 h -20 c -2.2,0 -4,1.8 -4,4 v 48 c 0,2.2 1.8,4 4,4 h 20 c 2.2,0 4,-1.8 4,-4 v -48 c 0,-2.2 -1.8,-4 -4,-4 z"
-           id="path29" />
-      </g>
-    </g>
-  </g>
-  <rect
-     x="757.80713"
-     y="61.795586"
-     width="151"
-     height="114"
-     stroke="#000000"
-     stroke-width="1.33333"
-     stroke-miterlimit="8"
-     fill="none"
-     id="rect37" />
-  <text
-     font-family="Calibri, Calibri_MSFontService, sans-serif"
-     font-weight="400"
-     font-size="24px"
-     id="text39"
-     x="797.21606"
-     y="202.29559">SSIODS</text>
-  <text
-     font-family="Calibri, Calibri_MSFontService, sans-serif"
-     font-weight="400"
-     font-size="24px"
-     id="text41"
-     x="765.77612"
-     y="231.29559">Software (PC)</text>
-  <g
-     clip-path="url(#clip4)"
-     id="g57"
-     transform="translate(-159.6929,-73.704414)">
-    <g
-       clip-path="url(#clip5)"
-       id="g55">
-      <g
-         clip-path="url(#clip6)"
-         id="g53">
-        <path
-           d="m 692,191 h -16 v -27 h -18 v 2 h 16 v 25 h -16 v 2 h 16 v 25 h -16 v 2 h 18 v -27 h 16 z"
-           id="path43" />
-        <path
-           d="m 653,170 h -10 v -10 h 10 z m -12,-12 v 14 h 14 v -14 z"
-           id="path45" />
-        <path
-           d="m 653,197 h -10 v -10 h 10 z m -12,-12 v 14 h 14 v -14 z"
-           id="path47" />
-        <path
-           d="m 653,224 h -10 v -10 h 10 z m -12,-12 v 14 h 14 v -14 z"
-           id="path49" />
-        <path
-           d="m 707,197 h -10 v -10 h 10 z m -12,-12 v 14 h 14 v -14 z"
+           d="m 491,285 h -16 v -27 h -18 v 2 h 16 v 25 h -16 v 2 h 16 v 25 h -16 v 2 h 18 v -27 h 16 z"
            id="path51" />
+        <path
+           d="m 452,264 h -10 v -10 h 10 z m -12,-12 v 14 h 14 v -14 z"
+           id="path53" />
+        <path
+           d="m 452,291 h -10 v -10 h 10 z m -12,-12 v 14 h 14 v -14 z"
+           id="path55" />
+        <path
+           d="m 452,318 h -10 v -10 h 10 z m -12,-12 v 14 h 14 v -14 z"
+           id="path57" />
+        <path
+           d="m 506,291 h -10 v -10 h 10 z m -12,-12 v 14 h 14 v -14 z"
+           id="path59" />
       </g>
     </g>
   </g>
   <rect
-     x="439.8071"
-     y="61.795586"
+     x="398.5"
+     y="184.69675"
      width="151"
      height="114"
      stroke="#000000"
      stroke-width="1.33333"
      stroke-miterlimit="8"
      fill="none"
-     id="rect59" />
+     id="rect67" />
   <text
      font-family="Calibri, Calibri_MSFontService, sans-serif"
      font-weight="400"
      font-size="24px"
-     id="text61"
-     x="456.63412"
-     y="202.29559">SSIODS Hub</text>
+     id="text69"
+     x="414.819"
+     y="325.19675">SSIODS Hub</text>
   <path
-     d="m 590.3071,115.29559 h 166.769"
+     d="M 549,238.19675 H 731.022"
      stroke="#000000"
      stroke-width="2"
      stroke-miterlimit="8"
      fill="none"
      fill-rule="evenodd"
-     id="path63" />
+     id="path71" />
   <text
      font-family="Calibri, Calibri_MSFontService, sans-serif"
      font-weight="400"
      font-size="24px"
-     id="text65"
-     x="600.09204"
-     y="86.295586">Serial over USB</text>
+     id="text73"
+     x="558.27802"
+     y="209.19675">Serial over USB</text>
   <path
-     d="m 266.8071,61.795586 -33,57.000004"
-     stroke="#000000"
-     stroke-width="0.666667"
-     stroke-miterlimit="8"
-     fill="none"
-     fill-rule="evenodd"
-     id="path67" />
-  <path
-     d="m 289.8071,61.795586 -33,57.000004"
-     stroke="#000000"
-     stroke-width="0.666667"
-     stroke-miterlimit="8"
-     fill="none"
-     fill-rule="evenodd"
-     id="path69" />
-  <path
-     d="m 246.6341,118.79559 -12.827,10e-5"
-     stroke="#000000"
-     stroke-width="0.666667"
-     stroke-miterlimit="8"
-     fill="none"
-     fill-rule="evenodd"
-     id="path71" />
-  <path
-     d="m 245.8071,118.79559 -33,57"
-     stroke="#000000"
-     stroke-width="0.666667"
-     stroke-miterlimit="8"
-     fill="none"
-     fill-rule="evenodd"
-     id="path73" />
-  <path
-     d="m 268.6341,118.79559 -12.827,10e-5"
+     d="m 224.5,184.69675 -33,57"
      stroke="#000000"
      stroke-width="0.666667"
      stroke-miterlimit="8"
@@ -269,7 +271,7 @@
      fill-rule="evenodd"
      id="path75" />
   <path
-     d="m 268.8071,118.79559 -33,57"
+     d="m 247.5,184.69675 -33,57"
      stroke="#000000"
      stroke-width="0.666667"
      stroke-miterlimit="8"
@@ -277,152 +279,154 @@
      fill-rule="evenodd"
      id="path77" />
   <path
-     d="m 268.3071,98.295586 h 170.919"
+     d="m 204.327,241.69675 -12.827,1e-4"
      stroke="#000000"
-     stroke-width="2"
+     stroke-width="0.666667"
      stroke-miterlimit="8"
      fill="none"
      fill-rule="evenodd"
      id="path79" />
   <path
-     d="m 255.3071,140.29559 h 183.746"
+     d="m 204.5,241.69675 -33,57"
      stroke="#000000"
-     stroke-width="2"
+     stroke-width="0.666667"
      stroke-miterlimit="8"
      fill="none"
      fill-rule="evenodd"
      id="path81" />
-  <text
-     font-family="Calibri, Calibri_MSFontService, sans-serif"
-     font-weight="400"
-     font-size="24px"
-     id="text83"
-     x="310.95209"
-     y="85.295586">CAN bus</text>
-  <rect
-     x="285.8071"
-     y="192.79559"
-     width="111"
-     height="89"
+  <path
+     d="m 227.327,241.69675 -12.827,1e-4"
      stroke="#000000"
-     stroke-width="1.33333"
+     stroke-width="0.666667"
      stroke-miterlimit="8"
      fill="none"
-     id="rect85" />
+     fill-rule="evenodd"
+     id="path83" />
+  <path
+     d="m 227.5,241.69675 -33,57"
+     stroke="#000000"
+     stroke-width="0.666667"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path85" />
+  <path
+     d="M 227,221.19675 H 397.919"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path87" />
+  <path
+     d="M 214,263.19675 H 397.746"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path89" />
   <text
      font-family="Calibri, Calibri_MSFontService, sans-serif"
      font-weight="400"
      font-size="24px"
-     id="text87"
-     x="287.6131"
-     y="307.29559">SSIODS I/O</text>
-  <text
-     font-family="Calibri, Calibri_MSFontService, sans-serif"
-     font-weight="400"
-     font-size="24px"
-     id="text89"
-     x="308.1731"
-     y="336.29559">Device</text>
-  <text
-     font-family="Calibri, Calibri_MSFontService, sans-serif"
-     font-weight="400"
-     font-size="43px"
      id="text91"
-     x="312.94711"
-     y="250.29559">I/O</text>
-  <path
-     d="M 312.3071,98.295586 V 192.36759"
-     stroke="#000000"
-     stroke-width="2"
-     stroke-miterlimit="8"
-     fill="none"
-     fill-rule="evenodd"
-     id="path93" />
-  <path
-     d="m 369.3071,140.29559 v 52.472"
-     stroke="#000000"
-     stroke-width="2"
-     stroke-miterlimit="8"
-     fill="none"
-     fill-rule="evenodd"
-     id="path95" />
-  <path
-     d="m 308.8071,98.795586 c 0,-1.657 1.567,-3 3.5,-3 1.933,0 3.5,1.343 3.5,3 0,1.657004 -1.567,3.000004 -3.5,3.000004 -1.933,0 -3.5,-1.343 -3.5,-3.000004 z"
-     stroke="#000000"
-     stroke-width="1.33333"
-     stroke-miterlimit="8"
-     fill-rule="evenodd"
-     id="path97" />
-  <path
-     d="m 366.8071,140.79559 c 0,-1.657 1.343,-3 3,-3 1.657,0 3,1.343 3,3 0,1.657 -1.343,3 -3,3 -1.657,0 -3,-1.343 -3,-3 z"
-     stroke="#000000"
-     stroke-width="1.33333"
-     stroke-miterlimit="8"
-     fill-rule="evenodd"
-     id="path99" />
+     x="269.13699"
+     y="208.19675">CAN bus</text>
   <rect
-     x="69.807098"
-     y="192.79559"
+     x="243.5"
+     y="315.69675"
      width="112"
-     height="89"
+     height="90"
      stroke="#000000"
      stroke-width="1.33333"
      stroke-miterlimit="8"
      fill="none"
-     id="rect101" />
+     id="rect93" />
   <text
      font-family="Calibri, Calibri_MSFontService, sans-serif"
      font-weight="400"
      font-size="24px"
-     id="text103"
-     x="72.148102"
-     y="307.29559">SSIODS I/O</text>
+     id="text95"
+     x="245.799"
+     y="431.19675">SSIODS I/O</text>
   <text
      font-family="Calibri, Calibri_MSFontService, sans-serif"
      font-weight="400"
      font-size="24px"
-     id="text105"
-     x="92.708099"
-     y="336.29559">Device</text>
+     id="text97"
+     x="266.35901"
+     y="460.19675">Device</text>
   <text
      font-family="Calibri, Calibri_MSFontService, sans-serif"
      font-weight="400"
      font-size="43px"
-     id="text107"
-     x="97.48111"
-     y="250.29559">I/O</text>
+     id="text99"
+     x="271.13199"
+     y="374.19675">I/O</text>
   <path
-     d="M 96.307098,98.295586 V 192.36759"
+     d="m 270,221.19675 v 94.072"
      stroke="#000000"
      stroke-width="2"
      stroke-miterlimit="8"
      fill="none"
      fill-rule="evenodd"
-     id="path109" />
+     id="path101" />
   <path
-     d="m 154.3071,140.29559 v 52.472"
+     d="m 328,263.19675 v 52.472"
      stroke="#000000"
      stroke-width="2"
      stroke-miterlimit="8"
      fill="none"
      fill-rule="evenodd"
-     id="path111" />
+     id="path103" />
   <path
-     d="m 93.807098,98.795586 c 0,-1.657 1.343,-3 3,-3 1.657,0 3,1.343 3,3 0,1.657004 -1.343,3.000004 -3,3.000004 -1.657,0 -3,-1.343 -3,-3.000004 z"
+     d="m 267.5,222.19675 c 0,-1.933 1.343,-3.5 3,-3.5 1.657,0 3,1.567 3,3.5 0,1.933 -1.343,3.5 -3,3.5 -1.657,0 -3,-1.567 -3,-3.5 z"
      stroke="#000000"
      stroke-width="1.33333"
      stroke-miterlimit="8"
      fill-rule="evenodd"
-     id="path113" />
+     id="path105" />
   <path
-     d="m 150.8071,140.79559 c 0,-1.657 1.567,-3 3.5,-3 1.933,0 3.5,1.343 3.5,3 0,1.657 -1.567,3 -3.5,3 -1.933,0 -3.5,-1.343 -3.5,-3 z"
+     d="m 324.5,263.69675 c 0,-1.657 1.567,-3 3.5,-3 1.933,0 3.5,1.343 3.5,3 0,1.657 -1.567,3 -3.5,3 -1.933,0 -3.5,-1.343 -3.5,-3 z"
      stroke="#000000"
      stroke-width="1.33333"
      stroke-miterlimit="8"
      fill-rule="evenodd"
-     id="path115" />
+     id="path107" />
+  <rect
+     x="28.500099"
+     y="315.69675"
+     width="111"
+     height="90"
+     stroke="#000000"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="none"
+     id="rect109" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text111"
+     x="30.3333"
+     y="431.19675">SSIODS I/O</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text113"
+     x="50.893299"
+     y="460.19675">Device</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="43px"
+     id="text115"
+     x="55.666698"
+     y="374.19675">I/O</text>
   <path
-     d="M 59.307098,98.295586 H 243.0531"
+     d="m 55,221.19675 1e-4,94.072"
      stroke="#000000"
      stroke-width="2"
      stroke-miterlimit="8"
@@ -430,11 +434,203 @@
      fill-rule="evenodd"
      id="path117" />
   <path
-     d="M 59.307098,140.29559 H 232.4261"
+     d="m 112,263.19675 v 52.472"
      stroke="#000000"
      stroke-width="2"
      stroke-miterlimit="8"
      fill="none"
      fill-rule="evenodd"
      id="path119" />
+  <path
+     d="m 51.5001,222.19675 c 0,-1.933 1.567,-3.5 3.5,-3.5 1.9329,0 3.5,1.567 3.5,3.5 0,1.933 -1.5671,3.5 -3.5,3.5 -1.933,0 -3.5,-1.567 -3.5,-3.5 z"
+     stroke="#000000"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill-rule="evenodd"
+     id="path121" />
+  <path
+     d="m 109.5,263.69675 c 0,-1.657 1.343,-3 3,-3 1.657,0 3,1.343 3,3 0,1.657 -1.343,3 -3,3 -1.657,0 -3,-1.343 -3,-3 z"
+     stroke="#000000"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill-rule="evenodd"
+     id="path123" />
+  <path
+     d="M 18,221.19675 H 201.746"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path125" />
+  <path
+     d="M 18,263.19675 H 191.119"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path127" />
+  <g
+     clip-path="url(#clip4)"
+     id="g137"
+     transform="translate(0,-44.803253)">
+    <g
+       clip-path="url(#clip5)"
+       id="g135">
+      <g
+         clip-path="url(#clip6)"
+         id="g133">
+        <path
+           d="m 817.3,274.3 c -4.2,0 -7.5,-3.4 -7.5,-7.5 0,-4.1 3.4,-7.5 7.5,-7.5 4.2,0 7.5,3.4 7.5,7.5 0,4.1 -3.4,7.5 -7.5,7.5 z m 16.9,-12.2 c -0.4,-1.4 -0.9,-2.7 -1.6,-3.9 l 1.6,-4.7 -3.6,-3.6 -4.7,1.6 c -1.2,-0.7 -2.5,-1.2 -3.9,-1.6 l -2.2,-4.4 h -5 l -2.2,4.4 c -1.4,0.4 -2.7,0.9 -3.9,1.6 l -4.7,-1.6 -3.6,3.6 1.6,4.7 c -0.7,1.2 -1.2,2.5 -1.6,3.9 l -4.4,2.2 v 5 l 4.4,2.2 c 0.4,1.4 0.9,2.7 1.6,3.9 l -1.6,4.7 3.5,3.5 4.7,-1.6 c 1.2,0.7 2.5,1.2 3.9,1.6 l 2.2,4.4 h 5 l 2.2,-4.4 c 1.4,-0.4 2.7,-0.9 3.9,-1.6 l 4.7,1.6 3.6,-3.5 -1.6,-4.7 c 0.7,-1.2 1.3,-2.6 1.7,-3.9 l 4.4,-2.2 v -5 z"
+           id="path129" />
+        <path
+           d="m 794.7,310.7 c -4.2,0 -7.5,-3.4 -7.5,-7.5 0,-4.2 3.4,-7.5 7.5,-7.5 4.2,0 7.5,3.4 7.5,7.5 0,4.1 -3.3,7.5 -7.5,7.5 z m 15.3,-16.1 1.6,-4.7 -3.6,-3.6 -4.7,1.6 c -1.2,-0.7 -2.6,-1.2 -3.9,-1.6 l -2.2,-4.4 h -5 l -2.2,4.4 c -1.4,0.4 -2.7,0.9 -3.9,1.6 l -4.7,-1.6 -3.5,3.5 1.5,4.7 c -0.7,1.2 -1.2,2.6 -1.6,3.9 l -4.4,2.2 v 5 l 4.4,2.2 c 0.4,1.4 0.9,2.7 1.6,3.9 l -1.5,4.7 3.5,3.5 4.7,-1.5 c 1.2,0.7 2.5,1.2 3.9,1.6 l 2.2,4.4 h 5 l 2.2,-4.4 c 1.4,-0.4 2.7,-0.9 3.9,-1.6 l 4.7,1.6 3.5,-3.6 -1.5,-4.6 c 0.7,-1.2 1.2,-2.5 1.6,-3.9 l 4.4,-2.2 v -5 l -4.4,-2.2 c -0.4,-1.4 -0.9,-2.7 -1.6,-3.9 z"
+           id="path131" />
+      </g>
+    </g>
+  </g>
+  <rect
+     x="1080.5"
+     y="291.69675"
+     width="151"
+     height="114"
+     stroke="#000000"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="none"
+     id="rect139" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text141"
+     x="1107.6899"
+     y="431.19675">Simulator</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text143"
+     x="1110.92"
+     y="460.19675">Software</text>
+  <g
+     clip-path="url(#clip7)"
+     id="g151"
+     transform="translate(0,-44.803253)">
+    <g
+       clip-path="url(#clip8)"
+       id="g149">
+      <g
+         clip-path="url(#clip9)"
+         id="g147">
+        <path
+           d="m 1189,412 v -9 l -29,-20.5 V 363 c 0,-3.9 -2,-9 -5,-9 -2.9,0 -5,5.1 -5,9 v 19.5 l -29,20.5 v 9 l 29,-14.5 v 21.8 l -10,8.7 v 6 l 15,-6 15,6 v -6 l -10,-8.7 v -21.8 z"
+           id="path145" />
+      </g>
+    </g>
+  </g>
+  <g
+     clip-path="url(#clip10)"
+     id="g163"
+     transform="translate(0,-44.803253)">
+    <g
+       clip-path="url(#clip11)"
+       id="g161">
+      <g
+         clip-path="url(#clip12)"
+         id="g159">
+        <path
+           d="m 1131.9,188.9 -2.8,-2.8 8.6,-8.6 -8.6,-8.6 2.8,-2.8 11.4,11.4 z"
+           id="path153" />
+        <path
+           d="m 1115,143 v 62 h 80 v -62 z m 69,6 c 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 z m -7,0 c 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 z m -7,0 c 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 z m 19,50 h -68 v -40 h 68 z"
+           id="path155" />
+        <path
+           d="m 1145,185 h 16 v 4 h -16 z"
+           id="path157" />
+      </g>
+    </g>
+  </g>
+  <rect
+     x="1080.5"
+     y="72.696747"
+     width="151"
+     height="114"
+     stroke="#000000"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="none"
+     id="rect165" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text167"
+     x="1088.23"
+     y="213.19675">Configuration</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text169"
+     x="1125.3"
+     y="242.19675">Utility</text>
+  <path
+     d="m 882,237.19675 h 166.77"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path171" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text173"
+     x="905.43103"
+     y="208.19675">Named pipe</text>
+  <path
+     d="m 1048,345.86775 10e-5,-216.671"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path175" />
+  <path
+     d="m 1048,129.19675 h 31.39"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path177" />
+  <path
+     d="m 1048,345.19675 h 31.39"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="8"
+     fill="none"
+     fill-rule="evenodd"
+     id="path179" />
+  <rect
+     x="722.5"
+     y="24.696846"
+     width="533"
+     height="456"
+     stroke="#000000"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     stroke-dasharray="5.33333, 4"
+     fill="none"
+     id="rect181" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text183"
+     x="983.70398"
+     y="507.19675">PC</text>
 </svg>
