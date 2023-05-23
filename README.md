@@ -20,47 +20,53 @@
 
 (3.A.1) This section contains CAN messages that are reserved for SSIODS commands. These commands are emitted by hubs and are received by I/O devices. A compliant SSIODS device must be able to handle these messages.
 
-#### (3.A.A) 11111111111 - Activate
+#### (3.A.A) 11111111111 (0x7FF) - Activate
 
 (3.A.A.1) The **Activate** message is used to transition one device or all devices from STANDBY to ACTIVE state.
 
 (3.A.A.2) Payload: 16 bit integer ID of target device (corresponding to device's status message ID), or 0 to target all devices on the bus.
 
-#### (3.A.B) 11111111110 - Standby
+#### (3.A.B) 11111111110 (0x7FE) - Standby
 
 (3.A.B.1) The **Standby** message is used to transition one device or all devices from ACTIVE to STANDBY state.
 
 (3.A.B.2) Payload: 16 bit integer ID of target device (corresponding to device's status message ID), or 0 to target all devices on the bus.
 
-#### (3.A.C) 11111111101 - Enter Configuration Mode
+#### (3.A.C) 11111111101 (0x7FD) - Enter Configuration Mode
 
 (3.A.C.1) The **Enter Configuration Mode** message is used to transition one device from STANDBY to CONFIGURING state.
 
 (3.A.C.2) Payload: 16 bit integer ID of target device (corresponding to device's status message ID).
 
-#### (3.A.D) 11111111100 - Exit Configuration Mode
+#### (3.A.D) 11111111100 (0x7FC) - Exit Configuration Mode
 
 (3.A.D.1) The **Exit Configuration Mode** message is used to transition one device from CONFIGURING to STANDBY state.
 
 (3.A.D.2) Payload: 16 bit integer ID of target device (corresponding to device's status message ID).
 
-#### (3.A.E) 11111111011 - Visual Identify
+#### (3.A.E) 11111111011 (0x7FB) - Visual Identify
 
 (3.A.E.1) The **Visual Identify** message is used to temporarily set the device into a VISUAL_ID state.
 
 (3.A.E.2) Payload: 16 bit integer ID of target device (corresponding to device's status message ID).
 
-#### (3.A.F) 11111100000 through 11111111010 - Reserved for future SSIODS commands
+#### (3.A.F) 11111100000 through 11111111010 (0x7E0 through 0x7FA) - Reserved for future SSIODS commands
 
 (3.A.F.1) This message ID range is reserved for future commands.
 
 ### (3.B) Special CAN Messages
 
-#### (3.B.A) 11110000000 through 11111011111 - Device status message
+#### (3.B.A) 11110000000 through 11111011111 (0x780 through 0x7DF) - Device status message
 
 (3.B.A.1) This message ID range is used for device status updates. Each SSIODS device on a particular SSIODS CAN bus must periodically transmit a status message using a unique message ID in this range. The device status messages are used to identify devices present on a SSIODS CAN bus and to communicate the SSIODS device state.
 
 (3.B.A.2) Payload: 1 byte. Last (least significant) two bits contain the SSIODS device state. (00) - STANDBY, (01) - ACTIVE, (10) - CONFIGURING.
+
+#### (3.B.B) 00000000000 through 1000000000 (0x000 through 0x200) - Device message ID reconfiguration in CONFIGURING mode
+
+(3.B.B.1) This message ID range is allocated when in CONFIGURING mode for overriding default CAN message IDs. 0x000 should always override the device's status message ID. The device should only allow valid values for status message IDs (0x780 through 0x7DF). 0x001 - 0x200 are used to set the CAN message ID for the device's i+1 message ID. Example: If a device has a message id of 0 with the default CAN message ID of 0x100, then sending a CAN message with CAN message ID of 0x001 (0+1) and payload of 0x123 will configure the device to listen/emit the device's message 0 using the CAN bus message ID 0x123. Note: There were two message IDs involved in this example: "device message ID" is ID used by the end software and "device CAN message ID" is the ID used for communication on the CAN bus by the device.
+
+(3.B.B.2) Payload: 16 bit integer specifying the new CAN message ID for a particular device message ID.
 
 ## (4) SSIODS Serial Communication
 
@@ -78,4 +84,18 @@
 
 ### (4.B) Hub Serial Message Types
 
-(4.B.1) SSIODS messages are serialized using Protocol Buffers (Protobuf) format. The two base message types are HubBound and PcBound. HubBound messages are transmitted from PC software to an SSIODS hub and PcBound messages are transmitted from an SSIODS hub to the PC software. Both message types contains an id (64 bit unsigned int) that can be used for acknowledging message reception.
+(4.B.1) SSIODS Serial messages are serialized using Protocol Buffers (Protobuf) format. The two base message types are HubBound and PcBound. HubBound messages are transmitted from PC software to an SSIODS hub and PcBound messages are transmitted from an SSIODS hub to the PC software. Both message types contains an id (64 bit unsigned int) that can be used for acknowledging message reception.
+
+## (5) SSIODS Named Pipe Communication
+
+(5.1) SSIODS named pipe messages are serialized using Protocol Buffers (Protobuf) format.
+
+## (6) SSIODS Interface Service
+
+(6.1) The SSIODS Interface Service serves two primary functions (1) abstracting away the physical configuration of the hub and device network through message mapping and forwarding, and (2) forwarding inter-hub messages.
+
+
+**------------------------** **END OF SPECIFICATION** **------------------------**
+The information below this line is not part of the specification.
+
+[Edge case examples](./edge-case-examples.md)
