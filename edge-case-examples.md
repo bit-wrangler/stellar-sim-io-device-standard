@@ -74,5 +74,5 @@ The configration procedure for conflicting devices may look like the following (
 7. Configuration utility sends message to put all devices into NORMAL mode.
 8. Reconnect the first instance of the device's CAN bus connection or power.
 
-
+With the two devices operating at the same time, the messages from the first instance of the device will be emitted using CAN message ID `0x030` and will be mapped to `device: 73ab6411-8baa-4d57-8372-a047246ead02; instance: 0; id: 0;` messages by the interface service for consumption by the end application. The messages from the second instance of the device will be emitted using CAN message ID `0x031` and will be mapped to `device: 73ab6411-8baa-4d57-8372-a047246ead02; instance: 1; id: 0;` messages by the interface service for consumption by the end application.
 
