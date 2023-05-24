@@ -62,7 +62,7 @@
 
 (3.B.A.2) Payload: 1 byte. Last (least significant) two bits contain the SSIODS device state. (00) - STANDBY, (01) - ACTIVE, (10) - CONFIGURING.
 
-#### (3.B.B) 00000000000 through 1000000000 (0x000 through 0x200) - Device message ID reconfiguration in CONFIGURING mode
+#### (3.B.B) 00000000000 through 01111111111 (0x000 through 0x1FF) - Device message ID reconfiguration in CONFIGURING mode
 
 (3.B.B.1) This message ID range is allocated when in CONFIGURING mode for overriding default CAN message IDs. 0x000 should always override the device's status message ID. The device should only allow valid values for status message IDs (0x780 through 0x7DF). 0x001 - 0x200 are used to set the CAN message ID for the device's i+1 message ID. Example: If a device has a message id of 0 with the default CAN message ID of 0x100, then sending a CAN message with CAN message ID of 0x001 (0+1) and payload of 0x123 will configure the device to listen/emit the device's message 0 using the CAN bus message ID 0x123. Note: There were two message IDs involved in this example: "device message ID" is ID used by the end software and "device CAN message ID" is the ID used for communication on the CAN bus by the device.
 
@@ -96,6 +96,7 @@
 
 
 **------------------------** **END OF SPECIFICATION** **------------------------**
-The information below this line is not part of the specification.
+
+The information below **END OF SPECIFICATION** is not part of the specification.
 
 [Edge case examples](./edge-case-examples.md)
